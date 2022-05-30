@@ -25,7 +25,7 @@ div.game-board img.pipe{
     bottom: 0;
     width: 80px;
 
-    animation: pipe-animation 10.5s infinite linear;
+    animation: pipe-animation 1.5s infinite linear;
 }
 
 .jump{
