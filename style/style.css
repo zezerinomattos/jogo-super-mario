@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.game-board{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(35, 160, 35);
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    margin: auto;
+    overflow: hidden;
+}
+
+div.game-board img.mario{
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+}
+
+div.game-board img.pipe{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+
+    animation: pipe-animation 10.5s infinite linear;
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+}
+
+div.game-board img.clouds{
+    position: absolute;
+    width: 550px;
+
+    animation: clouds-animation 20s infinite linear;
+}
